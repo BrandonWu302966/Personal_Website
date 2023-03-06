@@ -1,3 +1,11 @@
+
+
+
+.full-body{
+  width: 100%;
+  background-color: blue;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,86 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.top-left{
+  position: absolute;
+  width: 176px;
+  height: 434px;
+  left: -67px;
+  top: -163px;
+}
+.cherry1{
+  position: absolute;
+  width: 229px;
+  height: 596px;
+  left: -45px;
+  top: 271px;
+}
+.cherry2{
+  position: absolute;
+  width: 176px;
+  height: 434px;
+  left: -9px;
+  top: -17px;
+}
+.cherry3{
+  position: absolute;
+  width: 229px;
+  height: 596px;
+  left: -20px;
+  top: 252px;
+}
+.sig{
+  position: absolute;
+  width: 571px;
+  height: 430px;
+  left: 98px;
+  top: 40px;
+}
+.description{
+  position: absolute;
+  width: 419px;
+  height: 279px;
+  left: 283px;
+  top: 448px;
+  font-family: 'Kite One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: black;
+}
+.topline{
+  position: absolute;
+  width: 384px;
+  height: 0px;
+  left: 285px;
+  top: 436px;
+  border: 1px solid black;
+}
+.bottomline{
+  position: absolute;
+  width: 384px;
+  height: 0px;
+  left: 285px;
+  top: 727px;
+  border: 1px solid black;
+}
+
+.swipe{
+  position: absolute;
+  width: 755px;
+  height: 554px;
+  left: 643px;
+  top: 27px
+}
+
+.subject{
+  position: absolute;
+  width: 755.13px;
+  height: 553.86px;
+  left: 641px;
+  top: 27px;
+  border-radius: 61px;
 }
