@@ -87,14 +87,14 @@
   width: 650px;
   height: 500px;
   left: 210px;
-  top: -30px;
+  top: 8%;
 }
 .description{
   position: absolute;
   width: 31%;
   height: 29%;
   left: 27%;
-  top: 49%;
+  top: 60%;
   text-align: center;
   font-family: "Monaco", monospace;
   font-style: normal;
@@ -108,7 +108,7 @@
   width: 31%;
   height: 0px;
   left: 27%;
-  top: 47%;
+  top: 58%;
   border: 1px solid black;
 }
 .bottomline{
@@ -116,7 +116,7 @@
   width: 31%;
   height: 0px;
   left: 27%;
-  top: 80%;
+  top: 91%;
   border: 1px solid black;
 }
 
@@ -124,6 +124,6 @@
   position: absolute;
   top: 0;
   right: 0;
-  height: 60%;
-  width: 40%;
+  height: 66%;
+  width: 42%;
 }
