@@ -8,6 +8,8 @@
 
 .App {
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
@@ -47,82 +49,81 @@
 
 .top-left{
   position: absolute;
-  width: 176px;
-  height: 434px;
-  left: -67px;
+  height: 176px;
+  width: 434px;
+  left: -200px;
   top: -163px;
+  transform: rotate(90deg);
+
 }
 .cherry1{
   position: absolute;
-  width: 229px;
-  height: 596px;
-  left: -45px;
-  top: 271px;
+  height: 229px;
+  width: 596px;
+  left: -230px;
+  top: 600px;
+  transform: rotate(90deg);
+
 }
 .cherry2{
   position: absolute;
-  width: 176px;
-  height: 434px;
-  left: -9px;
-  top: -17px;
+  height: 176px;
+  width: 434px;
+  left: -130px;
+  top: 1000px;
+  transform: rotate(90deg);
+
 }
 .cherry3{
   position: absolute;
-  width: 229px;
-  height: 596px;
-  left: -20px;
-  top: 252px;
+  height: 229px;
+  width: 596px;
+  left: -200px;
+  top: 180px;
+  transform: rotate(90deg);
 }
 .sig{
   position: absolute;
-  width: 571px;
-  height: 430px;
-  left: 98px;
-  top: 40px;
+  width: 650px;
+  height: 500px;
+  left: 210px;
+  top: -30px;
 }
 .description{
   position: absolute;
-  width: 419px;
-  height: 279px;
-  left: 283px;
-  top: 448px;
-  font-family: 'Kite One';
+  width: 31%;
+  height: 29%;
+  left: 27%;
+  top: 49%;
+  text-align: center;
+  font-family: "Monaco", monospace;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 29px;
+  font-size: 120%;
+  line-height: 150%;
   color: black;
 }
 .topline{
   position: absolute;
-  width: 384px;
+  width: 31%;
   height: 0px;
-  left: 285px;
-  top: 436px;
+  left: 27%;
+  top: 47%;
   border: 1px solid black;
 }
 .bottomline{
   position: absolute;
-  width: 384px;
+  width: 31%;
   height: 0px;
-  left: 285px;
-  top: 727px;
+  left: 27%;
+  top: 80%;
   border: 1px solid black;
 }
 
-.swipe{
+.headshot{
   position: absolute;
-  width: 755px;
-  height: 554px;
-  left: 643px;
-  top: 27px
-}
-
-.subject{
-  position: absolute;
-  width: 755.13px;
-  height: 553.86px;
-  left: 641px;
-  top: 27px;
-  border-radius: 61px;
+  top: 0;
+  right: 0;
+  height: 60%;
+  width: 40%;
 }
