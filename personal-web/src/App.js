@@ -1,9 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import cherry from "./assets/cherry.png";
-import signature from "./assets/signature.png"
-import swipe from "./assets/swipe.png"
-import sub from "./assets/subject.png"
+import cherry from "./assets/cherry1.png";
+import signature from "./assets/sig.png"
+import me from "./assets/headshot.png"
 
 function App() {
   return (
@@ -25,8 +24,7 @@ function App() {
           <hr className = 'bottomline'></hr>
         </div>
         <div headshot>
-          <img className = 'swipe' src = {swipe} alt = 'react logo'/>
-          <img className = 'subject' src = {sub} alt = 'react logo'/>
+          <img className = 'headshot' src = {me} alt = 'react logo'/>
         </div>
       </div>
     </div>
