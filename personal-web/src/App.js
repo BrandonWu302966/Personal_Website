@@ -14,6 +14,9 @@ function App() {
           <img className = 'cherry2' src={cherry} alt="react logo" />
           <img className = 'cherry3' src={cherry} alt="react logo" />
         </div>
+        <div navbar>
+          
+        </div>
           <img className = 'sig' src = {signature} alt = "react logo" />
           <div description>
             <hr className = 'topline'></hr>
