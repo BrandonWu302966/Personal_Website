@@ -2,7 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import cherry from "./assets/cherry1.png";
 import signature from "./assets/sig.png"
-import me from "./assets/headshot.png"
+import me from "./assets/me.png"
+import swipe from "./assets/swipe.png"
+import stump from "./assets/Stump.png";
+import roots from "./assets/roots.png";
+import branch1 from "./assets/branch2.png";
+import branch2 from "./assets/branch2-1.png";
+
 
 function App() {
   return (
@@ -13,9 +19,14 @@ function App() {
           <img className = 'cherry1' src={cherry} alt="react logo" />
           <img className = 'cherry2' src={cherry} alt="react logo" />
           <img className = 'cherry3' src={cherry} alt="react logo" />
+          <img className = 'cherry4' src={cherry} alt="react logo" />
         </div>
-        <div navbar>
-          
+        <div className = 'navbar'>
+          f
+          <button class="nav1" >Home</button>
+          <button class="nav2" >Projects</button>
+          <button class="nav3">Experiences</button>
+          <button class="nav4">Contacts</button>
         </div>
           <img className = 'sig' src = {signature} alt = "react logo" />
           <div description>
@@ -27,7 +38,16 @@ function App() {
             <hr className = 'bottomline'></hr>
           </div>
         <div headshot>
+          <img className = 'top-right' src = {cherry} alt = 'react logo'/>
+          <img className = 'headshot' src = {swipe} alt = 'react logo'/>
           <img className = 'headshot' src = {me} alt = 'react logo'/>
+        </div>
+        <div tree>
+          <img className = 'stump' src = {stump} alt = 'react logo'/>
+          <img className = 'roots' src = {roots} alt = 'react logo'/>
+          <img className = 'branch1' src = {branch1} alt = 'react logo'/>
+          <img className = 'branch2' src = {branch2} alt = 'react logo'/>
+
         </div>
       </div>
     </div>

@@ -82,6 +82,41 @@
   top: 180px;
   transform: rotate(90deg);
 }
+.top-right{
+  position: absolute;
+  height: 229px;
+  width: 596px;
+  right: -200px;
+  top: 20px;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.cherry4{
+  position: absolute;
+  height: 229px;
+  width: 596px;
+  left: -200px;
+  top: 1200px;
+  transform: rotate(-90deg);
+}
+.cherry5{
+  position: absolute;
+  height: 229px;
+  width: 596px;
+  left: -200px;
+  top: 180px;
+  transform: rotate(90deg);
+}
+.cherry6{
+  position: absolute;
+  height: 229px;
+  width: 596px;
+  left: -200px;
+  top: 180px;
+  transform: rotate(90deg);
+}
+
 .sig{
   position: absolute;
   width: 650px;
@@ -122,8 +157,111 @@
 
 .headshot{
   position: absolute;
-  top: 0;
+  top: 8%;
   right: 0;
   height: 66%;
   width: 42%;
+}
+
+.nav1{
+  position: absolute;
+  top: 3%;
+  left: 17%;
+  font-family: "Monaco", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  color: rgb(0, 0, 0);
+  background: rgb(205, 131, 131);
+  font-size: 20px;
+  padding: 13px;
+  border: 0px solid rgb(255, 255, 255);
+}
+.nav2{
+  position: absolute;
+  top: 3%;
+  left: 27%;
+  font-family: "Monaco", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  color: rgb(0, 0, 0);
+  background: rgb(205, 131, 131);
+  font-size: 20px;
+  padding: 13px;
+  border: 0px solid rgb(255, 255, 255);
+}
+.nav3{
+  position: absolute;
+  top: 3%;
+  left: 40%;
+  font-family: "Monaco", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  color: rgb(0, 0, 0);
+  background: rgb(205, 131, 131);
+  font-size: 20px;
+  padding: 13px;
+  border: 0px solid rgb(255, 255, 255);
+}
+.nav4{
+  position: absolute;
+  top: 3%;
+  left: 55%;
+  font-family: "Monaco", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  color: rgb(0, 0, 0);
+  background: rgb(205, 131, 131);
+  font-size: 20px;
+  padding: 13px;
+  border: 0px solid rgb(255, 255, 255);
+}
+
+.navbar{
+  background-color: rgb(205, 131, 131);
+  height: 20%;
+  font-size: 350%;
+  color:rgb(205, 131, 131);
+}
+
+.stump{
+  position: absolute;
+  width: 2511px;
+  height: 260px;
+  left: 50px;
+  top: 1000px;
+  z-index: -1;
+}
+.roots{
+  position: absolute;
+  width: 138px;
+  height: 260px;
+  left: -31px;
+  top: 1000px;
+  z-index: -1;
+}
+
+.branch1{
+  position: absolute;
+  width: 330px;
+  height: 298px;
+  left: 885px;
+  top: 850px;
+  z-index: -2;
+}
+
+.branch2{
+  position: absolute;
+  width: 377px;
+  height: 231px;
+  left: 338px;
+  top: 1200px;
+  z-index: -2;
 }
