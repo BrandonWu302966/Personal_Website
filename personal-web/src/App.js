@@ -8,11 +8,24 @@ import stump from "./assets/Stump.png";
 import roots from "./assets/roots.png";
 import branch1 from "./assets/branch2.png";
 import branch2 from "./assets/branch2-1.png";
+import github from "./assets/github.png";
+import facebook from "./assets/facebook.png";
+import instagram from "./assets/instagram.png";
+import linkedin from "./assets/linkedin.png";
+import background from "./assets/background.jpg";
+import wharton from "./assets/wharton.jpg";
+import CYC from "./assets/cyc.jpg";
+import Codebase from "./assets/codebase.jpg";
+import Nexus from "./assets/nexus.jpg";
+import BFHP from "./assets/bfhp.jpg";
 
 function App() {
   return (
     <div className="App">
       <div id = 'full-body'>
+        <div id = "background">
+          <img src = {background} alt = 'react logo'></img>
+        </div>
         <img className = 'top-left' src={cherry} alt="react logo" />
         <img className = 'cherry1' src={cherry} alt="react logo" />
         <img className = 'cherry3' src={cherry} alt="react logo" />
@@ -32,8 +45,21 @@ function App() {
               <button className='a'>Nexus</button>
             </div>
           </div>
-          <button class="nav3">Experiences</button>
-          <button class="nav4">Contacts</button>
+          <div class = 'dropdown2'>
+            <button class="nav3" >Experience</button>
+            <div class = 'dropdown-content2'>
+              <button className='b'>YiYang</button>
+              <br></br>
+              <button className='b'>Codebase</button>
+              <br></br>
+              <button className='b'>CYC</button>
+            </div>
+          </div>
+          <div class = 'dropdown3'>
+            <button class="nav4" >Contact</button>
+            <div class = 'dropdown-content3'>
+            </div>
+          </div>
         </div>
           <img className = 'sig' src = {signature} alt = "react logo" />
           <div description>
@@ -48,10 +74,78 @@ function App() {
           <img className = 'headshot' src = {swipe} alt = 'react logo'/>
           <img className = 'headshot' src = {me} alt = 'react logo'/>
         </div>
-        
+        <div id = 'socials-container'>
+          <a className = 'social' href = "https://github.com/BrandonWu302966">
+            <img className = 'github' src = {github} alt = 'react logo'/>
+          </a>
+          <a className = 'social' href = "https://www.linkedin.com/in/brandonwu32">
+            <img className = 'linkedin' src = {linkedin} alt = 'react logo'/>
+          </a>
+          <a href = 'https://www.instagram.com/brandonwuuu/'>
+            <img className = 'instagram' src = {instagram} alt = 'react logo'/>
+          </a>
+          <a className = 'social' href = "https://www.facebook.com/brandon.wu.94">
+            <img className = 'facebook' src = {facebook} alt = 'react logo'/>
+          </a>
+        </div>
       </div>
       <div id = 'full-body2'>
         <div id = 'container2'>
+          <div id = 'timeline1'>
+            <label className ='timage'>🏫</label>
+            <br></br>
+            <label className = 'ttitle'>YiYang</label>
+            <br></br>
+            <label className = 'tdescription'>
+              Description of my time at YiYang
+            </label>
+          </div>
+          <div id = 'timeline2'>
+            <img src = {wharton} alt = 'react logo' className ='timage'></img>
+            <br></br>
+            <label className = 'ttitle'>Benford's Analysis of Covid-19 Data</label>
+            <br></br>
+            <label className = 'tdescription'>
+              Description of my time at WDSA
+            </label>
+          </div>
+          <div id = 'timeline3'>
+            <img src = {CYC} alt = 'react logo' className ='timage'></img>
+            <br></br>
+            <label className = 'ttitle'>Consult Your Community</label>
+            <br></br>
+            <label className = 'tdescription'>
+              Description of my time at CYC
+            </label>
+          </div>
+          <div id = 'timeline4'>
+            <img src = {Codebase} alt = 'react logo' className ='timage'></img>
+            <br></br>
+            <label className = 'ttitle'>Codebase</label>
+            <br></br>
+            <label className = 'tdescription'>
+              Description of my time at Codebase
+            </label>
+          </div>
+          <div id = 'timeline5'>
+            <img src = {Nexus} alt = 'react logo' className ='timage'></img>
+            <br></br>
+            <label className = 'ttitle'>Nexus</label>
+            <br></br>
+            <label className = 'tdescription'>
+              Description of my time at Nexus
+            </label>
+          </div>
+          <div id = 'timeline6'>
+            <img src = {BFHP} alt = 'react logo' className ='timage'></img>
+            <br></br>
+            <label className = 'ttitle'>Berkeley Food and Housing Project</label>
+            <br></br>
+            <label className = 'tdescription'>
+              Description of my time at BFHP
+            </label>
+          </div>
+
           <img className = 'stump' src = {stump} alt = 'react logo'/>
             <img className = 'roots' src = {roots} alt = 'react logo'/>
             <img className = 'branch1' src = {branch1} alt = 'react logo'/>
