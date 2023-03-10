@@ -13,7 +13,7 @@ import facebook from "./assets/facebook.png";
 import instagram from "./assets/instagram.png";
 import linkedin from "./assets/linkedin.png";
 import background from "./assets/background.jpg";
-import wharton from "./assets/wharton.jpg";
+import wharton from "./assets/wharton.png";
 import CYC from "./assets/cyc.jpg";
 import Codebase from "./assets/codebase.jpg";
 import Nexus from "./assets/nexus.jpg";
@@ -92,7 +92,7 @@ function App() {
       <div id = 'full-body2'>
         <div id = 'container2'>
           <div id = 'timeline1'>
-            <label className ='timage'>🏫</label>
+            <label className ='timage1'>🏫</label>
             <br></br>
             <label className = 'ttitle'>YiYang</label>
             <br></br>
@@ -101,7 +101,7 @@ function App() {
             </label>
           </div>
           <div id = 'timeline2'>
-            <img src = {wharton} alt = 'react logo' className ='timage'></img>
+            <img src = {wharton} alt = 'react logo' className ='timage2'></img>
             <br></br>
             <label className = 'ttitle'>Benford's Analysis of Covid-19 Data</label>
             <br></br>
@@ -110,7 +110,7 @@ function App() {
             </label>
           </div>
           <div id = 'timeline3'>
-            <img src = {CYC} alt = 'react logo' className ='timage'></img>
+            <img src = {CYC} alt = 'react logo' className ='timage3'></img>
             <br></br>
             <label className = 'ttitle'>Consult Your Community</label>
             <br></br>
@@ -119,7 +119,7 @@ function App() {
             </label>
           </div>
           <div id = 'timeline4'>
-            <img src = {Codebase} alt = 'react logo' className ='timage'></img>
+            <img src = {Codebase} alt = 'react logo' className ='timage4'></img>
             <br></br>
             <label className = 'ttitle'>Codebase</label>
             <br></br>
@@ -128,7 +128,7 @@ function App() {
             </label>
           </div>
           <div id = 'timeline5'>
-            <img src = {Nexus} alt = 'react logo' className ='timage'></img>
+            <img src = {Nexus} alt = 'react logo' className ='timage5'></img>
             <br></br>
             <label className = 'ttitle'>Nexus</label>
             <br></br>
@@ -137,7 +137,7 @@ function App() {
             </label>
           </div>
           <div id = 'timeline6'>
-            <img src = {BFHP} alt = 'react logo' className ='timage'></img>
+            <img src = {BFHP} alt = 'react logo' className ='timage6'></img>
             <br></br>
             <label className = 'ttitle'>Berkeley Food and Housing Project</label>
             <br></br>
