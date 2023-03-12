@@ -627,3 +627,76 @@
   height: 100%;
   border-radius: 100px;
 }
+
+#full-body3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 200%;
+}
+
+#left-border{
+  position: absolute;
+  left: -20%;
+}
+
+#experiences{
+  width: 100%;
+}
+
+.exp-title{
+  font-size: 300%;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+}
+
+.exp{
+  left: 0%;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#etitle{
+  left: 0%;
+  width: 30%;
+  font-family:'Monaco', Courier, monospace
+}
+
+#ename{
+  left: 15%;
+}
+#erole{
+  left: 15%;
+}
+#edate{
+  left: 15%;
+}
+#espace
+
+
+#edesc{
+  position: absolute;
+  left: 40%;
+  display: flex;
+  justify-content: center;
+  font-family:'Monaco', Courier, monospace
+}
+
+
+
+.proj-title{
+  top: 50%;
+  font-size: 300%;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+}
+
+
+
+

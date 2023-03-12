@@ -128,6 +128,70 @@ function App() {
           </div>
 
         </div>
+        <div id = 'full-body3'>
+          <div id = 'left-border'>
+            <img className = 'cherry1' src = {cherry} alt = 'react logo'></img>
+            <img className = 'cherry3' src = {cherry} alt = 'react logo'></img>
+          </div>
+          <div id = 'experiences'>
+            <header className = 'exp-title'>Experiences</header>
+            <br></br>
+            
+            <div className = 'exp'>
+                <div id = "etitle">
+                  <div id = 'ename'>
+                    <label>ef</label>
+                  </div>
+                  <div id = 'erole'>
+                    <label>fe</label>
+                  </div>
+                  <div id = 'edate'>
+                    <label>hf</label>
+                  </div>
+                  <div id = 'espace'>
+                    <br></br>
+                  </div>
+                </div>
+                <div id = 'edesc'>
+                  <label>dsfasdfasdfasdf</label>
+                </div>
+                <div id = 'espace'>
+                    <br></br>
+                </div>
+            </div>
+            
+          </div>
+          
+          <div id = 'projects'>
+            <header className = 'proj-title'>Projects</header>
+            <br></br>
+
+            <div className = 'exp'>
+                <div id = "etitle">
+                  <div id = 'ename'>
+                    <label>ef</label>
+                  </div>
+                  <div id = 'erole'>
+                    <label>fe</label>
+                  </div>
+                  <div id = 'edate'>
+                    <label>hf</label>
+                  </div>
+                  <div id = 'espace'>
+                    <br></br>
+                  </div>
+                </div>
+                <div id = 'edesc'>
+                  <label>dsfasdfasdfasdf</label>
+                </div>
+                <div id = 'espace'>
+                    <br></br>
+                </div>
+            </div>
+
+            
+          </div>
+        </div>
       </div>
   );
 }
