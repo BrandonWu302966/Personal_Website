@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './assets/github.png';
 import './App.css';
 import cherry from "./assets/cherry1.png";
 import signature from "./assets/sig.png"
@@ -14,7 +14,7 @@ import instagram from "./assets/instagram.png";
 import linkedin from "./assets/linkedin.png";
 import background from "./assets/background.jpg";
 import wharton from "./assets/wharton.png";
-import CYC from "./assets/cyc.jpg";
+import CYC from "./assets/cyc.png";
 import Codebase from "./assets/codebase.jpg";
 import Nexus from "./assets/nexus.jpg";
 import BFHP from "./assets/bfhp.jpg";
@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <div id = 'full-body'>
         <div id = "background">
-          <img src = {background} alt = 'react logo'></img>
+          <img src = {background} alt = {logo}></img>
         </div>
         <img className = 'top-left' src={cherry} alt="react logo" />
         <img className = 'cherry1' src={cherry} alt="react logo" />
@@ -93,57 +93,21 @@ function App() {
         <div id = 'container2'>
           <div id = 'timeline1'>
             <label className ='timage1'>🏫</label>
-            <br></br>
-            <label className = 'ttitle'>YiYang</label>
-            <br></br>
-            <label className = 'tdescription'>
-              Description of my time at YiYang
-            </label>
           </div>
           <div id = 'timeline2'>
             <img src = {wharton} alt = 'react logo' className ='timage2'></img>
-            <br></br>
-            <label className = 'ttitle'>Benford's Analysis of Covid-19 Data</label>
-            <br></br>
-            <label className = 'tdescription'>
-              Description of my time at WDSA
-            </label>
           </div>
           <div id = 'timeline3'>
             <img src = {CYC} alt = 'react logo' className ='timage3'></img>
-            <br></br>
-            <label className = 'ttitle'>Consult Your Community</label>
-            <br></br>
-            <label className = 'tdescription'>
-              Description of my time at CYC
-            </label>
           </div>
           <div id = 'timeline4'>
             <img src = {Codebase} alt = 'react logo' className ='timage4'></img>
-            <br></br>
-            <label className = 'ttitle'>Codebase</label>
-            <br></br>
-            <label className = 'tdescription'>
-              Description of my time at Codebase
-            </label>
           </div>
           <div id = 'timeline5'>
             <img src = {Nexus} alt = 'react logo' className ='timage5'></img>
-            <br></br>
-            <label className = 'ttitle'>Nexus</label>
-            <br></br>
-            <label className = 'tdescription'>
-              Description of my time at Nexus
-            </label>
           </div>
           <div id = 'timeline6'>
             <img src = {BFHP} alt = 'react logo' className ='timage6'></img>
-            <br></br>
-            <label className = 'ttitle'>Berkeley Food and Housing Project</label>
-            <br></br>
-            <label className = 'tdescription'>
-              Description of my time at BFHP
-            </label>
           </div>
 
           <img className = 'stump' src = {stump} alt = 'react logo'/>

@@ -529,83 +529,67 @@
 #timeline1{
   position: absolute;
   width: 25%;
-  height: 20%;
-  top: 60%;
-  left: 15%;
-  background-color:rgb(255, 240, 240);
+  height: 25%;
+  top: 55%;
+  left: 25%;
 }
 
 #timeline2{
   position: absolute;
   width: 20%;
-  height: 20%;
+  height: 25%;
   top: 15%;
   left: 50%;
-  background-color: rgb(255, 240, 240);
 }
 
 #timeline3{
   position: absolute;
-  width: 20%;
+  width: 55%;
   height: 20%;
-  top: 15%;
+  top: 20%;
   left: 105%;
-  background-color: rgb(255, 240, 240);
 }
 
 #timeline4{
   position: absolute;
   width: 20%;
-  height: 20%;
+  height: 22%;
   top: 60%;
-  left: 75%;
-  background-color: rgb(255, 240, 240);
+  left: 80%;
 }
 
 #timeline5{
   position: absolute;
   width: 20%;
   height: 20%;
-  top: 15%;
+  top: 20%;
   left: 130%;
-  background-color: rgb(255, 240, 240);
 }
 
 #timeline6{
   position: absolute;
-  width: 20%;
-  height: 20%;
+  width: 12%;
+  height: 21%;
   top: 60%;
   left: 135%;
   overflow-x: visible;
-  background-color: rgb(255, 240, 240);
 }
 
-.ttitle{
-  position: absolute;
-  top: 50%;
-  left: 0%;
-}
 
-.tdescription{
-  position: absolute;
-  top: 60%;
-  left: 0%;
-}
 
 .timage1{
   position: absolute;
   top: -10%;
   left: 0%;
-  font-size: 400%;
+  font-size: 1000%;
 }
 
 .timage2{
   position: absolute;
   top:0%;
-  left: -10%;
-  width: 45%;
-  height: 50%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 
 .timage3{
@@ -614,14 +598,17 @@
   left: 0%;
   width: 30%;
   height: 50%;
+  border-radius: 10px;
 }
 
 .timage4{
   position: absolute;
   top: 0%;
   left: 0%;
-  width: 30%;
-  height: 50%;
+  width: 42%;
+  height: 70%;
+  border-radius: 100px;
+
 }
 
 .timage5{
@@ -636,6 +623,7 @@
   position: absolute;
   top: 0%;
   left: 0%;
-  width: 30%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
 }
