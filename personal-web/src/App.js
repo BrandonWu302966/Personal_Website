@@ -18,8 +18,67 @@ import CYC from "./assets/cyc.png";
 import Codebase from "./assets/codebase.jpg";
 import Nexus from "./assets/nexus.jpg";
 import BFHP from "./assets/bfhp.jpg";
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import Projectbox from './components/projectbox.js';
+import Expbox from './components/expbox.js';
+
 
 function App() {
+  let [expboxes, setexpboxes] = useState([]);
+  let [projectboxes, setprojectboxes] = useState([]);
+
+  useEffect(() => {
+    const url = `https://api.airtable.com/v0/${process.env.REACT_APP_BASE_ID}/${process.env.REACT_APP_EXP_ID}`;
+    const url1 = `https://api.airtable.com/v0/${process.env.REACT_APP_BASE_ID}/${process.env.REACT_APP_PROJ_ID}`;
+    const config = {
+      headers : {
+        "Authorization" : `Bearer ${process.env.REACT_APP_AUTH_TOKEN}`,
+      }
+    };
+
+    // Code to actually pull and then use the data
+    // Request 1
+    axios.get(url, config)
+    .then(res => {
+      let tableEntries = res.data.records;
+      let items = [];
+      tableEntries.forEach(record => {
+        let entry = record.fields;
+        let item = {
+          name: entry["Experience Name"],
+          startend: entry["Start to End"],
+          experiencerole: entry["Experience Role"],
+          experiencedesc: entry["Experience Description"],
+        }
+        items.push(item);
+      });
+      setexpboxes(items);
+    })
+    .catch(err=> console.log(err))
+
+    // Request 2
+    axios.get(url1, config)
+    
+    .then(res => {
+      let tableEntries = res.data.records;
+      let items1 = [];
+      tableEntries.forEach(record => {
+        let entry = record.fields;
+        let item = {
+          name1: entry["Project Name"],
+          startend1: entry["Start to End"],
+          projectrole: entry["Project Role"],
+          projectdesc: entry["Project Description"],
+        }
+        items1.push(item);
+      });
+      setprojectboxes(items1);
+    })
+    .catch(err=> console.log(err))
+
+  }, []);
+
   return (
     <div className="App">
       <div id = 'full-body'>
@@ -34,10 +93,10 @@ function App() {
         </div>
         <div className = 'navbar'>
           f
-          <button class="nav1" >Home</button>
-          <div class = 'dropdown1'>
-            <button class="nav2" >Projects</button>
-            <div class = 'dropdown-content1'>
+          <button className="nav1" >Home</button>
+          <div className = 'dropdown1'>
+            <button className="nav2" >Projects</button>
+            <div className = 'dropdown-content1'>
               <button className='a'>Benford's</button>
               <br></br>
               <button className='a'>BFHP</button>
@@ -45,9 +104,9 @@ function App() {
               <button className='a'>Nexus</button>
             </div>
           </div>
-          <div class = 'dropdown2'>
-            <button class="nav3" >Experience</button>
-            <div class = 'dropdown-content2'>
+          <div className = 'dropdown2'>
+            <button className ="nav3" >Experience</button>
+            <div className = 'dropdown-content2'>
               <button className='b'>YiYang</button>
               <br></br>
               <button className='b'>Codebase</button>
@@ -55,14 +114,14 @@ function App() {
               <button className='b'>CYC</button>
             </div>
           </div>
-          <div class = 'dropdown3'>
-            <button class="nav4" >Contact</button>
-            <div class = 'dropdown-content3'>
+          <div className = 'dropdown3'>
+            <button className ="nav4" >Contact</button>
+            <div className = 'dropdown-content3'>
             </div>
           </div>
         </div>
           <img className = 'sig' src = {signature} alt = "react logo" />
-          <div description>
+          <div>
             <hr className = 'topline'></hr>
             <label className = 'description'>
             Hi! I am a freshmen studying Computer Science and Business at UC Berkeley. I love front-end development and creating full stack projects for non-profits. 
@@ -133,67 +192,21 @@ function App() {
             <img className = 'cherry1' src = {cherry} alt = 'react logo'></img>
             <img className = 'cherry3' src = {cherry} alt = 'react logo'></img>
           </div>
-          <div id = 'experiences'>
-            <header className = 'exp-title'>Experiences</header>
-            <br></br>
-            
-            <div className = 'exp'>
-                <div id = "etitle">
-                  <div id = 'ename'>
-                    <label>ef</label>
-                  </div>
-                  <div id = 'erole'>
-                    <label>fe</label>
-                  </div>
-                  <div id = 'edate'>
-                    <label>hf</label>
-                  </div>
-                  <div id = 'espace'>
-                    <br></br>
-                  </div>
-                </div>
-                <div id = 'edesc'>
-                  <label>dsfasdfasdfasdf</label>
-                </div>
-                <div id = 'espace'>
-                    <br></br>
-                </div>
-            </div>
-            
+          <header className = 'exp-title'>Experiences</header> 
+          <div className = 'experiences'>
+            {expboxes.map(item => (
+              <Expbox name={item["name"]} startend = {item['startend']} experiencerole={item["experiencerole"]} experiencedesc={item["experiencedesc"]}/>
+            ))}
           </div>
-          
-          <div id = 'projects'>
-            <header className = 'proj-title'>Projects</header>
-            <br></br>
-
-            <div className = 'exp'>
-                <div id = "etitle">
-                  <div id = 'ename'>
-                    <label>ef</label>
-                  </div>
-                  <div id = 'erole'>
-                    <label>fe</label>
-                  </div>
-                  <div id = 'edate'>
-                    <label>hf</label>
-                  </div>
-                  <div id = 'espace'>
-                    <br></br>
-                  </div>
-                </div>
-                <div id = 'edesc'>
-                  <label>dsfasdfasdfasdf</label>
-                </div>
-                <div id = 'espace'>
-                    <br></br>
-                </div>
-            </div>
-
-            
+          <header className = 'exp-title'>Projects</header>   
+          <div className = 'projects'>
+            {projectboxes.map(item => (
+              <Projectbox name1={item["name1"]} startend = {item['startend']} projectrole={item["projectrole"]} projectdesc={item["projectdesc"]}/>
+            ))}
           </div>
         </div>
-      </div>
-  );
+      </div>   
+      );
 }
 
 export default App;

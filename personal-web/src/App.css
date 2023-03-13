@@ -652,41 +652,6 @@
   border-right: none;
 }
 
-.exp{
-  left: 0%;
-  width: 50%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-}
-
-#etitle{
-  left: 0%;
-  width: 30%;
-  font-family:'Monaco', Courier, monospace
-}
-
-#ename{
-  left: 15%;
-}
-#erole{
-  left: 15%;
-}
-#edate{
-  left: 15%;
-}
-#espace
-
-
-#edesc{
-  position: absolute;
-  left: 40%;
-  display: flex;
-  justify-content: center;
-  font-family:'Monaco', Courier, monospace
-}
-
-
 
 .proj-title{
   top: 50%;
