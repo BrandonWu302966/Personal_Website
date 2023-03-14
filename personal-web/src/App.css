@@ -48,44 +48,43 @@
 }
 .top-left{
   position: absolute;
-  height: 176px;
-  width: 434px;
-  left: -130px;
-  top: -163px;
+  width: 30%;
+  left: -10%;
+  top: -10%;
   transform: rotate(90deg);
 
 }
 .cherry1{
   position: absolute;
-  height: 229px;
-  width: 596px;
-  left: -20%;
-  top: 600px;
+  height: 40%;
+  width: 45%;
+  left: -25%;
+  top: 50%;
   transform: rotate(90deg);
 
 }
 .cherry2{
   position: absolute;
-  height: 176px;
-  width: 434px;
-  left: -130px;
+  height: 10%;
+  width: 20%;
+  left: -14%;
   top: 0;
   transform: rotate(90deg);
 
 }
 .cherry3{
   position: absolute;
-  height: 229px;
-  width: 596px;
+  height: 30%;
+  width: 40%;
   left: -20%;
-  top: 180px;
+  top: 20%;
   transform: rotate(90deg);
 }
 
 #container{
   position: absolute;
-  height: 245px;
-  width: 500px;
+  height: 30%;
+  width: 35%;
   left: 60%;
   top: 0;
 }
@@ -102,9 +101,9 @@
 
 .cherry4{
   position: absolute;
-  height: 229px;
-  width: 596px;
-  left: -200px;
+  height: 30%;
+  width: 30%;
+  left: -15%;
   top: 0;
   transform: rotate(-90deg);
 }
@@ -113,9 +112,9 @@
 
 .sig{
   position: absolute;
-  width: 670px;
-  height: 510px;
-  left: 15%;
+  width: 60%;
+  height: 60%;
+  left: 13%;
   top: 5%;
   z-index: -1;
   transform: rotate(5deg)
@@ -127,9 +126,9 @@
   left: 27%;
   top: 60%;
   text-align: center;
-  font-family: "Monaco", monospace;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400%;
   font-size: 120%;
   line-height: 150%;
   color: rgb(0, 0, 0);
@@ -147,7 +146,7 @@
   width: 31%;
   height: 0px;
   left: 27%;
-  top: 91%;
+  top: 85%;
   border: 1px solid black;
 }
 
@@ -165,7 +164,7 @@
   position: absolute;
   cursor: pointer;
   top: 0;
-  height: 66px;
+  height: 8%;
   left: 17%;
   font-family: "Monaco", monospace;
   display: flex;
@@ -173,8 +172,8 @@
   align-items: center;
   color: rgb(255, 255, 255);
   background: rgb(237, 84, 84);
-  font-size: 20px;
-  padding: 13px;
+  font-size: 35%;
+  padding: 1%;
   font-weight: 900;
   border: 0px solid rgb(255, 255, 255);
 }
@@ -187,7 +186,7 @@
   position: absolute;
   display: inline-block;
   top: 0;
-  height: 66px;  
+  height: 8%;  
   left: 29%;
 }
 
@@ -206,7 +205,7 @@
   position: absolute;
   display: inline-block;
   top: 0;
-  height: 66px;  
+  height: 8%;  
   left: 43%;
 }
 
@@ -224,7 +223,7 @@
   position: absolute;
   display: inline-block;
   top: 0;
-  height: 66px;  
+  height: 8%;  
   left: 58%;
 }
 
@@ -245,10 +244,11 @@
 .a{
   color: rgb(0, 0, 0);
   width:100%;
+  left: -10%;
   cursor: pointer;
   position: relative;
   font-family: "Monaco", monospace;
-  font-size: 20px;
+  font-size: 90%;
   background-color:rgb(255, 255, 255);
   transition: all 0.5s ease-in;
   border: none;
@@ -258,12 +258,12 @@
 
 .b{
   color: rgb(0, 0, 0);
-  width:130%;
+  width:110%;
   border-width: 130%;
   cursor: pointer;
   position: relative;
   font-family: "Monaco", monospace;
-  font-size: 20px;
+  font-size: 90%;
   border: none;
   background-color:rgb(255, 255, 255);
   transition: all 0.5s ease-in;
@@ -276,7 +276,7 @@
   position: absolute;
   cursor: pointer;
   top: 0;
-  height: 66px;  
+  height: 100%;  
   left: 27%;
   font-family: "Monaco", monospace;
   display: flex;
@@ -284,8 +284,8 @@
   align-items: center;
   color: rgb(255, 255, 255);
   background: rgb(237, 84, 84);
-  font-size: 20px;
-  padding: 13px;
+  font-size:35%;
+  padding: 1%;
   font-weight: 900;
   border: 0px solid rgb(255, 255, 255);
 }
@@ -293,7 +293,7 @@
   position: absolute;
   cursor: pointer;
   top: 0;
-  height: 66px;
+  height: 100%;
   left: 40%;
   font-family: "Monaco", monospace;
   display: flex;
@@ -301,8 +301,8 @@
   align-items: center;
   color: rgb(255, 255, 255);
   background: rgb(237, 84, 84);
-  font-size: 20px;
-  padding: 13px;
+  font-size: 35%;
+  padding: 1%;
   font-weight: 900;
   border: 0px solid rgb(255, 255, 255);
 }
@@ -310,7 +310,7 @@
   position: absolute;
   cursor: pointer;
   top: 0;
-  height: 66px;  
+  height: 100%;  
   left: 55%;
   font-family: "Monaco", monospace;
   display: flex;
@@ -318,9 +318,9 @@
   align-items: center;
   color: rgb(255, 255, 255);
   background: rgb(237, 84, 84);
-  font-size: 20px;
+  font-size: 35%;
   font-weight: 900;
-  padding: 13px;
+  padding: 1%;
   border: 0px solid rgb(255, 255, 255);
 }
 
@@ -396,17 +396,17 @@
 }
 .roots{
   position: absolute;
-  width: 138px;
-  height: 260px;
-  left: -31px;
+  width: 12%;
+  height: 30%;
+  left: -5%;
   top: 30%;
   z-index: -1;
 }
 
 .branch1{
   position: absolute;
-  width: 330px;
-  height: 298px;
+  width: 20%;
+  height: 40%;
   left: 20%;
   top: 10%;
   z-index: -2;
@@ -414,8 +414,8 @@
 
 .branch2{
   position: absolute;
-  width: 377px;
-  height: 231px;
+  width: 20%;
+  height: 30%;
   left: 45%;
   top: 53%;
   z-index: -2;
@@ -423,18 +423,18 @@
 
 .uproot{
   position: absolute;
-  width: 138px;
-  height: 260px;
+  width: 10%;
+  height: 20%;
   right: -75%;
-  top: 31%;
+  top: 32%;
   z-index: -1;
   transform: rotate(180deg)
 }
 
 .cherry5{
   position: absolute;
-  height: 229px;
-  width: 596px;
+  height: 40%;
+  width: 40%;
   right: -84%;
   top: 40%;
   transform: rotate(-90deg);
@@ -552,7 +552,7 @@
 
 #timeline4{
   position: absolute;
-  width: 20%;
+  width: 22%;
   height: 22%;
   top: 60%;
   left: 80%;
@@ -598,7 +598,6 @@
   left: 0%;
   width: 30%;
   height: 50%;
-  border-radius: 10px;
 }
 
 .timage4{
@@ -631,8 +630,9 @@
 #full-body3{
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 170%;
   top: 200%;
+  background-color: rgba(255, 242, 240, 0.456);
 }
 
 #left-border{
@@ -640,27 +640,15 @@
   left: -20%;
 }
 
-#experiences{
-  width: 100%;
-}
-
 .exp-title{
   font-size: 300%;
-  font-family: 'Courier New', Courier, monospace;
-  border: 1px solid black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 3px solid black;
   border-left: none;
   border-right: none;
 }
 
 
-.proj-title{
-  top: 50%;
-  font-size: 300%;
-  font-family: 'Courier New', Courier, monospace;
-  border: 1px solid black;
-  border-left: none;
-  border-right: none;
-}
 
 
 

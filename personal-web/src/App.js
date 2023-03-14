@@ -22,12 +22,13 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Projectbox from './components/projectbox.js';
 import Expbox from './components/expbox.js';
-
+import Scroller from './components/scroller.js';
 
 function App() {
   let [expboxes, setexpboxes] = useState([]);
   let [projectboxes, setprojectboxes] = useState([]);
 
+    
   useEffect(() => {
     const url = `https://api.airtable.com/v0/${process.env.REACT_APP_BASE_ID}/${process.env.REACT_APP_EXP_ID}`;
     const url1 = `https://api.airtable.com/v0/${process.env.REACT_APP_BASE_ID}/${process.env.REACT_APP_PROJ_ID}`;
@@ -107,7 +108,7 @@ function App() {
           <div className = 'dropdown2'>
             <button className ="nav3" >Experience</button>
             <div className = 'dropdown-content2'>
-              <button className='b'>YiYang</button>
+              <button className='b' onClick = {Scroller}>YiYang</button>
               <br></br>
               <button className='b'>Codebase</button>
               <br></br>
@@ -150,24 +151,24 @@ function App() {
       </div>
       <div id = 'full-body2'>
         <div id = 'container2'>
-          <div id = 'timeline1'>
+          <a id = 'timeline1' href= "https://www.yiyangeducation.org/">
             <label className ='timage1'>🏫</label>
-          </div>
-          <div id = 'timeline2'>
+          </a>
+          <a id = 'timeline2' href= "https://globalyouth.wharton.upenn.edu/programs-courses/data-science-academy/">
             <img src = {wharton} alt = 'react logo' className ='timage2'></img>
-          </div>
-          <div id = 'timeline3'>
+          </a>
+          <a id = 'timeline3' href= "https://www.cycberkeley.org/">
             <img src = {CYC} alt = 'react logo' className ='timage3'></img>
-          </div>
-          <div id = 'timeline4'>
+          </a>
+          <a id = 'timeline4' href = 'https://codebase.berkeley.edu/'>
             <img src = {Codebase} alt = 'react logo' className ='timage4'></img>
-          </div>
-          <div id = 'timeline5'>
+          </a>
+          <a id = 'timeline5' href= "https://nexushq.com/home/">
             <img src = {Nexus} alt = 'react logo' className ='timage5'></img>
-          </div>
-          <div id = 'timeline6'>
+          </a>
+          <a id = 'timeline6' href= "https://bfhp.org/">
             <img src = {BFHP} alt = 'react logo' className ='timage6'></img>
-          </div>
+          </a>
 
           <img className = 'stump' src = {stump} alt = 'react logo'/>
             <img className = 'roots' src = {roots} alt = 'react logo'/>
@@ -193,15 +194,15 @@ function App() {
             <img className = 'cherry3' src = {cherry} alt = 'react logo'></img>
           </div>
           <header className = 'exp-title'>Experiences</header> 
-          <div className = 'experiences'>
+          <div id = 'experiences'>
             {expboxes.map(item => (
               <Expbox name={item["name"]} startend = {item['startend']} experiencerole={item["experiencerole"]} experiencedesc={item["experiencedesc"]}/>
             ))}
           </div>
           <header className = 'exp-title'>Projects</header>   
-          <div className = 'projects'>
+          <div id = 'projects'>
             {projectboxes.map(item => (
-              <Projectbox name1={item["name1"]} startend = {item['startend']} projectrole={item["projectrole"]} projectdesc={item["projectdesc"]}/>
+              <Projectbox name1={item["name1"]} startend = {item['startend1']} projectrole={item["projectrole"]} projectdesc={item["projectdesc"]}/>
             ))}
           </div>
         </div>

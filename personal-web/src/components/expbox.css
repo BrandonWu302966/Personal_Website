@@ -1,33 +1,26 @@
-.exp{
-    left: 0%;
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  #etitle{
-    left: 0%;
-    width: 30%;
-    font-family:'Monaco', Courier, monospace
-  }
-  
-  #ename{
-    left: 15%;
-  }
-  #erole{
-    left: 15%;
-  }
-  #edate{
-    left: 15%;
-  }
-  #espace
-  
-  
-  #edesc{
-    position: absolute;
-    left: 40%;
-    display: flex;
-    justify-content: center;
-    font-family:'Monaco', Courier, monospace
-  }
+#experiences{
+  position: relative;
+  left: 0%;    
+}
+
+#etitle{
+  position: absolute;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  left: 10%;
+
+}
+
+#edate{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.edesc{
+  position: relative;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  inline-size: 50%;
+  left: 45%;
+  text-align: left;
+
+}

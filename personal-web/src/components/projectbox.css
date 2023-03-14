@@ -1,33 +1,30 @@
-.exp{
-    left: 0%;
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
+  #projects{
+    position: relative;
+    left: 0%;    
   }
   
-  #etitle{
-    left: 0%;
-    width: 30%;
-    font-family:'Monaco', Courier, monospace
-  }
-  
-  #ename{
-    left: 15%;
-  }
-  #erole{
-    left: 15%;
-  }
-  #edate{
-    left: 15%;
-  }
-  #espace
-  
-  
-  #edesc{
+  #ptitle{
     position: absolute;
-    left: 40%;
-    display: flex;
-    justify-content: center;
-    font-family:'Monaco', Courier, monospace
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 30%;
+    left: 10%;
+    text-align: left;
+  }
+
+  #ename{
+    font-size: 150%;
+  }
+
+#edate{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+  
+  
+  .pdesc{
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    inline-size: 50%;
+    text-align: left;
+    left: 45%;
   }
