@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Personal_Website/personal-web/static/css/main.70a0533e.css",
-    "main.js": "/Personal_Website/personal-web/static/js/main.be2bed8e.js",
-    "static/js/787.676fbc64.chunk.js": "/Personal_Website/personal-web/static/js/787.676fbc64.chunk.js",
-    "static/media/cherry1.png": "/Personal_Website/personal-web/static/media/cherry1.e26c95dc70881526013d.png",
-    "static/media/background.jpg": "/Personal_Website/personal-web/static/media/background.cbdab1e080088f2760f3.jpg",
-    "static/media/instagram.png": "/Personal_Website/personal-web/static/media/instagram.d13fdfde8a468a15fb8f.png",
-    "static/media/nexus.jpg": "/Personal_Website/personal-web/static/media/nexus.7b3b6d6ed1e464c03cfa.jpg",
-    "static/media/wharton.png": "/Personal_Website/personal-web/static/media/wharton.b4db3466666c4e80bd7e.png",
-    "static/media/swipe.png": "/Personal_Website/personal-web/static/media/swipe.08ccbeda8aac099ae280.png",
-    "static/media/me.png": "/Personal_Website/personal-web/static/media/me.b0d0af109ead7bf1051f.png",
-    "static/media/sig.png": "/Personal_Website/personal-web/static/media/sig.6451e5e4fa737a72b7ec.png",
-    "static/media/branch2.png": "/Personal_Website/personal-web/static/media/branch2.3c5396f71388d6f27d2b.png",
-    "static/media/branch2-1.png": "/Personal_Website/personal-web/static/media/branch2-1.6219c18a1a1ee103e86b.png",
-    "static/media/cyc.png": "/Personal_Website/personal-web/static/media/cyc.a0d6cb41af8f0190dcf8.png",
-    "static/media/Stump.png": "/Personal_Website/personal-web/static/media/Stump.952c9798d45c1797cea3.png",
-    "static/media/roots.png": "/Personal_Website/personal-web/static/media/roots.2158dfe6c6e5233f33ae.png",
-    "index.html": "/Personal_Website/personal-web/index.html",
-    "main.70a0533e.css.map": "/Personal_Website/personal-web/static/css/main.70a0533e.css.map",
-    "main.be2bed8e.js.map": "/Personal_Website/personal-web/static/js/main.be2bed8e.js.map",
-    "787.676fbc64.chunk.js.map": "/Personal_Website/personal-web/static/js/787.676fbc64.chunk.js.map"
+    "main.css": "/Personal_Website/static/css/main.70a0533e.css",
+    "main.js": "/Personal_Website/static/js/main.bf13de3a.js",
+    "static/js/787.676fbc64.chunk.js": "/Personal_Website/static/js/787.676fbc64.chunk.js",
+    "static/media/cherry1.png": "/Personal_Website/static/media/cherry1.e26c95dc70881526013d.png",
+    "static/media/background.jpg": "/Personal_Website/static/media/background.cbdab1e080088f2760f3.jpg",
+    "static/media/instagram.png": "/Personal_Website/static/media/instagram.d13fdfde8a468a15fb8f.png",
+    "static/media/nexus.jpg": "/Personal_Website/static/media/nexus.7b3b6d6ed1e464c03cfa.jpg",
+    "static/media/wharton.png": "/Personal_Website/static/media/wharton.b4db3466666c4e80bd7e.png",
+    "static/media/swipe.png": "/Personal_Website/static/media/swipe.08ccbeda8aac099ae280.png",
+    "static/media/me.png": "/Personal_Website/static/media/me.b0d0af109ead7bf1051f.png",
+    "static/media/sig.png": "/Personal_Website/static/media/sig.6451e5e4fa737a72b7ec.png",
+    "static/media/branch2.png": "/Personal_Website/static/media/branch2.3c5396f71388d6f27d2b.png",
+    "static/media/branch2-1.png": "/Personal_Website/static/media/branch2-1.6219c18a1a1ee103e86b.png",
+    "static/media/cyc.png": "/Personal_Website/static/media/cyc.a0d6cb41af8f0190dcf8.png",
+    "static/media/Stump.png": "/Personal_Website/static/media/Stump.952c9798d45c1797cea3.png",
+    "static/media/roots.png": "/Personal_Website/static/media/roots.2158dfe6c6e5233f33ae.png",
+    "index.html": "/Personal_Website/index.html",
+    "main.70a0533e.css.map": "/Personal_Website/static/css/main.70a0533e.css.map",
+    "main.bf13de3a.js.map": "/Personal_Website/static/js/main.bf13de3a.js.map",
+    "787.676fbc64.chunk.js.map": "/Personal_Website/static/js/787.676fbc64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70a0533e.css",
-    "static/js/main.be2bed8e.js"
+    "static/js/main.bf13de3a.js"
   ]
 }
